@@ -1,7 +1,8 @@
-const PersonalityInsightsV3 = require(['ibm-watson/personality-insights/v3'], function(value) {
+console.log("qwe");
+const PersonalityInsightsV3 = require(['node_modules/ibm-watson/personality-insights/v3'], function(value) {
     console.log(value);
 });
-const { IamAuthenticator } = require(['ibm-watson/auth'], function(value) {
+const { IamAuthenticator } = require(['node_modules/ibm-watson/auth'], function(value) {
     console.log(value);
 });
 
