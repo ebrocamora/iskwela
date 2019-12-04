@@ -14,7 +14,7 @@ const personalityInsights = new PersonalityInsightsV3({
 
 const profileParams = {
   // Get the content from the JSON file.
-  content: require('./profile.json'),
+  content: require('js/profile.json'),
   contentType: 'application/json',
   consumptionPreferences: true,
   rawScores: true,
