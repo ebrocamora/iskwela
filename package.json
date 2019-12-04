@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "const PersonalityInsightsV3 = require('ibm-watson/personality-insights/v3');",
+    "test": "node js/app.js",
     "start": "node js/app.js"
   },
   "repository": {

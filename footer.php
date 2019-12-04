@@ -19,7 +19,7 @@
 		</div>
 	</div>
 </footer>
+<script data-main="js/app.js" src="js/require.js"></script></body>
 
-<script type="module" src="js/app.js"></script>
-</body>
+<body>
 </html>
