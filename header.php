@@ -41,7 +41,7 @@
 								<a href="#">Media Center</a>
 							</li>
 							<li>
-								<a href="https://pbedcomms.wixsite.com/pbed-blog">Blog</a>
+								<a href="https://pbedcomms.wixsite.com/pbed-blog">test</a>
 							</li>
 							<li>
 								<a href="http://www.stepupph.org/">STEP UP Philippines</a>
