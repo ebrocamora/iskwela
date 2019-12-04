@@ -1,0 +1,31 @@
+{
+  "name": "iskwela",
+  "version": "5.2.0",
+  "description": "Personality Insighs",
+  "main": "app.js",
+  "dependencies": {
+    "ibm-watson": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "const PersonalityInsightsV3 = require('ibm-watson/personality-insights/v3');",
+    "start": "node js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrocamora/iskwela.git"
+  },
+  "keywords": [
+    "personality",
+    "insights"
+  ],
+  "author": "IBM",
+  "engines": {
+    "node": "10.x"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebrocamora/iskwela/issues"
+  },
+  "homepage": "https://github.com/ebrocamora/iskwela#readme"
+}
