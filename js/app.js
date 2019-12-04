@@ -2,7 +2,7 @@
 //     console.log(value);
 // });
 if (require(['ibm-watson/auth'], function(value) {
-    console.log(value);
+    console.log(type(value));
 })) {
   console.log("Success");
 } else {
