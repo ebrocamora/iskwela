@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "node js/app.js",
-    "start": "node js/app.js"
+    "start": "npm install ibm-watson"
   },
   "repository": {
     "type": "git",
