@@ -1,5 +1,9 @@
-const PersonalityInsightsV3 = require('ibm-watson/personality-insights/v3');
-const { IamAuthenticator } = require('ibm-watson/auth');
+const PersonalityInsightsV3 = require(['ibm-watson/personality-insights/v3'], function(value) {
+    console.log(value);
+});
+const { IamAuthenticator } = require(['ibm-watson/auth'], function(value) {
+    console.log(value);
+});
 
 const apikey = 'vyqEFFnAfa0B61Z_fo0d35OigPTPQoJosb06uy82eHbo';
 const url = 'https://gateway-wdc.watsonplatform.net/personality-insights/api';
