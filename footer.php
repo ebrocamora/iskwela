@@ -20,7 +20,8 @@
 	</div>
 </footer>
 
-<script src="js/app.js"></script>
+<!-- <script type="module" src="js/app.js"></script> -->
+<script data-main="js/app.js" src="js/require.js"></script>
 
 </body>
 </html>
